@@ -550,9 +550,9 @@ export default function App() {
       <nav className={`fixed w-full z-50 py-4 md:py-6 px-6 md:px-12 transition-all duration-300 border-b border-white/10 ${isMenuOpen ? 'bg-black' : 'bg-dark/90 backdrop-blur-md'}`}>
         <div className="max-w-7xl mx-auto flex justify-between items-center">
           <div className="flex items-center gap-2 cursor-pointer" onClick={() => { setCurrentPage('home'); window.scrollTo({ top: 0, behavior: 'smooth' }); }}>
-            <div className="w-8 h-8 md:w-10 md:h-10 rounded-sm overflow-hidden">
-              <img src="/media/SEMARAK-ICON.png" alt="Semarak Media Logo" className="w-full h-full object-cover" />
-            </div>
+              <div className="w-8 h-8 md:w-10 md:h-10 rounded-sm overflow-hidden">
+                <img src="/media/SEMARAK-ICON.png" alt="Logo PT Semarak Media Bisnis - Digital Marketing Agency" className="w-full h-full object-cover" />
+              </div>
             <div className={`flex flex-col leading-tight ml-1 md:ml-2 transition-all duration-300 ${isMenuOpen ? 'scale-90 origin-left opacity-80' : 'scale-100'}`}>
               <span className="font-sans font-medium text-base md:text-lg tracking-tight text-white uppercase">Semarak</span>
               <span className="text-[8px] md:text-[10px] uppercase font-bold tracking-widest text-primary">Media Bisnis</span>
@@ -718,6 +718,7 @@ export default function App() {
               {t.hero.tag}
             </div>
             <h1 className="text-4xl sm:text-6xl md:text-7xl lg:text-8xl font-serif font-black leading-[1.1] mb-8 text-white tracking-tighter">
+              <span className="sr-only">PT Semarak Media Bisnis - </span>
               <span className="block italic font-light opacity-90">{t.hero.title1}</span>
               <span className="block text-primary transform scale-y-110 origin-left">{t.hero.title2}</span>
               <span className="block">{t.hero.title3}</span>
@@ -743,7 +744,7 @@ export default function App() {
               <div className="absolute inset-0 bg-primary/5 opacity-0 group-hover:opacity-100 transition-opacity duration-700"></div>
               <img 
                 src="https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?q=80&w=2070&auto=format&fit=crop" 
-                alt="Modern corporate building skyline" 
+                alt="Kantor PT Semarak Media Bisnis - Konsultan Digital Marketing Jakarta" 
                 className="w-full h-full object-cover transition-transform duration-1000 group-hover:scale-110"
               />
               <div className="absolute inset-0 border-[20px] border-dark/20 pointer-events-none"></div>
@@ -775,7 +776,7 @@ export default function App() {
             <div className="relative overflow-hidden shadow-2xl border border-white/5">
                <img 
                 src="https://images.unsplash.com/photo-1542744173-8e7e53415bb0?q=80&w=2070&auto=format&fit=crop" 
-                alt="Team working on marketing strategy" 
+                alt="Tim Ahli PT Semarak Media Bisnis sedang merancang strategi pemasaran online" 
                 className="w-full h-full object-cover"
               />
             </div>
